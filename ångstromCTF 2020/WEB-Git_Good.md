@@ -18,7 +18,7 @@ check for all the contents of the initial commit by uding `git cat-file -p` to p
 
 You can find the object hash for file `thisistheflag.txt` 
 
-From the browser request to /.git/objects/0f/52598006f9cdb21db2f4c8d44d70535630289b to download thisistheflag.txt. The first two bytes of the hash is the dirname in Objects dir.
+From the browser request to `/.git/objects/0f/52598006f9cdb21db2f4c8d44d70535630289b` to download thisistheflag.txt. The first two bytes of the hash is the dirname in Objects dir.
 
 Use python zlib module to decompress the data and print the contents. And you will find the flag.
 ![flag](https://i.imgur.com/Nog9579.png)
