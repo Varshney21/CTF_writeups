@@ -3,6 +3,7 @@
 Luckily the source code was given in the challenge. By going through the code we can see that the value of `USER-AGENT` Request Header is used in the below SQL query with any Input Verification. By following simple SQL Injection cheats you can verify the Injection.
 
 Moreover we need to keep in mind that the result of sql query contains only one row or else it will print the error messages and will exit.
+
 ![code file](https://imgur.com/fupTLMs)
 
 Follow the `UNION Attack` in SQL query you can determine the number of rows in the table `Agents`.
