@@ -26,6 +26,7 @@ From encrypted.py we get that the md5 hash of current time is the key for AES an
 
 We need the time at which the python file was executed or the encrypted file was created. So for that I used exiftool to get the metadata of the files I downloaded using wget because it doesnt overwrites the metadata ie the time of creation and etc.
 But that vlaue didnt worked.
+
 ![exif](https://i.imgur.com/7Ca3oMo.png?1)
 
 There was a message in the Challenge : `I have Noname; I am but two days old.`
