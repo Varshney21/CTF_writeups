@@ -25,7 +25,8 @@ encrypted
 From encrypted.py we get that the md5 hash of current time is the key for AES and ECB mode is used for encryption. So the base64 string in file encrypted is the base64 encoded Cipher of the flag, which we need.
 
 We need the time at which the python file was executed or the encrypted file was created. So for that I used exiftool to get the metadata of the files I downloaded using wget because it doesnt overwrites the metadata ie the time of creation and etc.
-But that vlaue didnt worked.
+
+But that value didnt worked.
 
 ![exif](https://i.imgur.com/7Ca3oMo.png?1)
 
